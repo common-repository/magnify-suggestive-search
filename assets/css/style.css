@@ -1,0 +1,13 @@
+#toplevel_page_mnssp_dashboard .wp-submenu li:has(a[href="admin.php?page=mnssp_edit_search_bar"]) { 
+    display: none;
+}
+#toplevel_page_mnssp_dashboard .wp-submenu li:has(a[href="admin.php?page=mnssp_templates"]) {
+    font-weight: 600;
+    background-color: #f15b26;
+    color: #fff;
+    margin: 3px 10px 0;
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+    transition: all .3s;
+}
